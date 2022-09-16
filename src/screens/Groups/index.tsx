@@ -22,6 +22,7 @@ export function Groups() {
 					<ListEmpty message="Que tal cadastrar a primeira turma?" />
 				)}
 				contentContainerStyle={groups.length === 0 && { flex: 1 }}
+				showsVerticalScrollIndicator={false}
 			/>
 			<Button title="Criar nova turma" />
 		</Container>
